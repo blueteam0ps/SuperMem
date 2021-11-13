@@ -22,10 +22,10 @@ from termcolor import colored
 # Globals Likely Needing Updated
 THREADCOUNT = 12
 EVTXTRACTPATH = "/usr/local/bin/evtxtract"
-VOL3PATH = "/usr/bin/vol3"
+VOL3PATH = "/usr/bin/vol3.py"
 VOL2PATH = "/usr/bin/vol.py"
-VOL2EXTRAPLUGINS = "/usr/share/volatility/plugins/community/"
-BULKPATH = "/usr/bin/bulk_extractor"
+VOL2EXTRAPLUGINS = "/opt/community/"
+BULKPATH = "/usr/local/bin/bulk_extractor"
 LOG2TIMELINEPATH = "/usr/bin/log2timeline.py"
 PSORTPATH = "/usr/bin/psort.py"
 YARAPATH = "/usr/bin/yara"
