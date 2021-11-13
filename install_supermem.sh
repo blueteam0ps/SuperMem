@@ -35,7 +35,7 @@ pip install evtxtract
 #Installing Bulk_extractor
 cd /opt/
 git clone --recursive https://github.com/simsong/bulk_extractor.git
-bash bulk_extractor/etc/CONFIGURE_UBUNTU20LTS.bash
+echo -ne '\n' | bash bulk_extractor/etc/CONFIGURE_UBUNTU20LTS.bash
 cd bulk_extractor/
 ./configure
 make
