@@ -1,6 +1,7 @@
 #!/bin/bash
 # This is a helper script to assist with installation of the dependencies of SuperMem
 # Written by J Marasinghe
+# Tested with Ubuntu 20.04 LTS
 
 add-apt-repository ppa:gift/stable -y
 apt-get update
