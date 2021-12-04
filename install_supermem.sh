@@ -1,7 +1,7 @@
 #!/bin/bash
-# This is a helper script to assist with installation of the dependencies of SuperMem
+# This is a helper script to assist with installation of the dependencies of CrowdStrike's SuperMem (https://github.com/CrowdStrike/SuperMem) 
 # Written by J Marasinghe
-# Tested with Ubuntu 20.04 LTS
+# Tested with Ubuntu 20.04.3 LTS
 
 add-apt-repository ppa:gift/stable -y
 apt-get update
