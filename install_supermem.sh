@@ -13,7 +13,7 @@ wget http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64
 unzip volatility_2.6_lin64_standalone.zip
 cd volatility_2.6_lin64_standalone
 mv volatility_2.6_lin64_standalone vol
-cp vol /usr/bin/v
+cp vol /usr/bin/vol
 
 #Setting up Volatility 3
 cd /opt/
