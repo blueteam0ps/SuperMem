@@ -12,8 +12,8 @@ cd /opt/
 wget http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip
 unzip volatility_2.6_lin64_standalone.zip
 cd volatility_2.6_lin64_standalone
-mv volatility_2.6_lin64_standalone vol.py
-cp vol.py /usr/bin/
+mv volatility_2.6_lin64_standalone vol
+cp vol /usr/bin/v
 
 #Setting up Volatility 3
 cd /opt/
@@ -22,8 +22,8 @@ cd volatility3/
 pip3 install -r requirements.txt
 python3 setup.py build
 python3 setup.py install
-mv vol.py vol3.py
-cp vol3.py /usr/bin/
+mv vol.py vol3
+cp vol3 /usr/bin/
 
 
 #Download Volatility plugins
